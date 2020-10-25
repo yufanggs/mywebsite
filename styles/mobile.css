@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 900px) {
+
+	.social-media-menu {
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+	.listinheader a {
+		font-size: 10px;
+	}
+
+	.block {
+		width: 15%;
+	}
+
+	.listinheader {
+		margin-top: -40px;
+		margin-left: -50px;
+		text-align: right;
+	}
+
+	.big {
+		font-size: 20px;
+	}
+
+	.social-media-menu {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	.project-container {
+		margin-top: 10%;
+	}
+
+	.photo-block p {
+		font-size: 10px;
+	}
+}

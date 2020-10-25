@@ -9,14 +9,8 @@
 }
 
 .Header {
-    background-color: #F2DDDC;
+    background-color: #f2DDDC;
     height: 80px;
-}
-
-#listinheader {
-    list-style-type: none;
-    margin-left:auto; margin-right:0;
-
 }
 
 #mylogo {
@@ -123,13 +117,11 @@ a { color: #5E5C5C; text-decoration: none;}
     margin-top: -40px;
     margin-left: -70px;
     text-align: right;
-  }
+}
 
 .block {
-    width: 100px;
-    /*float: left;*/
+    width: 8%;
     display: inline-block;
-    zoom: 1;
     font-family: Raleway;
 
 
@@ -145,30 +137,16 @@ a { color: #5E5C5C; text-decoration: none;}
     margin-top: 20px;
 }
 
-#paragraph2 {
+.big {
     color: #5E5C5C;
     font-family: Neue Haas Grotesk Text Pro;
     display:inline-block;
     font-size: 43px;
     font-weight: 500;
+}
+
+#paragraph2 {
     margin-top: 20px;
-}
-
-#paragraph3 {
-    color: #5E5C5C;
-    font-family: Neue Haas Grotesk Text Pro;
-    display:inline-block;
-    font-size: 43px;
-    font-weight: normal;
-
-}
-
-#paragraph4 {
-    color: #5E5C5C;
-    font-family: Neue Haas Grotesk Text Pro;
-    display:inline-block;
-    font-size: 43px;
-    font-weight: normal;
 }
 
 #paragraph5 {
@@ -203,4 +181,17 @@ a { color: #5E5C5C; text-decoration: none;}
   }
 
 
+#mail-icon:hover {
+    background-color: #55acee;
+}
+#dribbble-icon:hover {
+    background-color: #ea4c89;
+}
 
+#linkedin-icon:hover {
+    background-color: #0E76A8;
+}
+
+#github-icon:hover {
+    background-color: #333333;
+}
