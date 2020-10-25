@@ -11,16 +11,22 @@
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
 	.listinheader a {
-		font-size: 10px;
+		font-size: 13px;
 	}
 
+	/* Listinheader block (top right) */
 	.block {
 		width: 15%;
 	}
 
+	#mylogo {
+		margin-left: 30%;
+	
+	}
+
 	.listinheader {
 		margin-top: -40px;
-		margin-left: -50px;
+		margin-left: -20px;
 		text-align: right;
 	}
 
