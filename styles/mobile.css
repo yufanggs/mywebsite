@@ -19,9 +19,17 @@
 		width: 15%;
 	}
 
+
 	#mylogo {
 		margin-left: 30%;
 	
+	}
+
+
+	#myphoto {
+    	height: 120px;
+    	padding-top: 14%;
+
 	}
 
 	.listinheader {
@@ -30,9 +38,6 @@
 		text-align: right;
 	}
 
-	.big {
-		font-size: 20px;
-	}
 
 	.social-media-menu {
 		margin-left: 20%;
@@ -40,10 +45,74 @@
 	}
 
 	.project-container {
-		margin-top: 10%;
+		margin-top: 7%;
+	}
+
+	.project-button {
+    	color: #5E5C5C;
+    	border-radius: 35px;
+    	background: #FCECCB;
+    	font-family: Raleway;
+    	padding: 20px; 
+    	width: 100px;
+    	height: 3px; 
+    	margin: auto;
+    	margin-top: 25px;
+    }
+
+	#rcorners1 {
+		margin-top: -6px;
+		font-size: 13px;
+
 	}
 
 	.photo-block p {
 		font-size: 10px;
 	}
+
+	#paragraph1 {
+		color: #78B4B6;
+		font-family: Raleway;
+		display:inline-block;
+		font-size: 15px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	.big {
+    color: #5E5C5C;
+    font-family: Neue Haas Grotesk Text Pro;
+    display:inline-block;
+    font-size: 19px;
+	font-weight: 500;
+	
+}
+
+#paragraph5 {
+    color: #F16F60;
+    font-family: Raleway;
+    display:inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#paragraph6 {
+    color: #F16F60;
+    font-family: Raleway;
+    display:inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#Footertext{
+    color: #5E5C5C;
+    font-family: Poppins;
+    display:inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
 }
