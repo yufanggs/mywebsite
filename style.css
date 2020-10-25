@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    background-color: white;
+ 
+}
+
+.Header {
+    background-color: #F2DDDC;
+    height: 80px;
+}
+
+#listinheader {
+    list-style-type: none;
+    margin-left:auto; margin-right:0;
+
+}
+
+#mylogo {
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 55px;
+
+}
+
+.photo-container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+#myphoto {
+    height: 150px;
+    padding-top: 5%;
+
+}
+
+
+.project-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photo-block {
+    width: 32%;
+    position: relative;
+
+}
+
+
+.photo-block img{
+    width: 100%;
+
+}
+
+.project-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    visibility: hidden;
+    /* transition: opacity 0.2s, visibility 0.2s; */
+}
+
+.photo-block:hover .project-description{
+    visibility: visible;
+    
+}
+
+.photo-block:hover img{
+    opacity: 0.5;
+    
+}
+
+
+.photo-block p {
+    /* transform: translateY(1); */
+    /* transition: 0.2s; */
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.photo-block:hover p{
+    transform: translate(0px);
+    
+}
+
+
+.listinheader a {
+    text-decoration: none;
+}
+
+
+a:hover {color: #EC576B;}
+a { color: #5E5C5C; text-decoration: none;}
+
+
+
+/* Make components align horizontally */
+.i-block {
+    display: inline-block;
+}
+
+
+.listinheader {
+    width: 100%;
+    margin-top: -40px;
+    margin-left: -70px;
+    text-align: right;
+  }
+
+.block {
+    width: 100px;
+    /*float: left;*/
+    display: inline-block;
+    zoom: 1;
+    font-family: Raleway;
+
+
+}
+
+
+#paragraph1 {
+    color: #78B4B6;
+    font-family: Raleway;
+    display:inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#paragraph2 {
+    color: #5E5C5C;
+    font-family: Neue Haas Grotesk Text Pro;
+    display:inline-block;
+    font-size: 43px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#paragraph3 {
+    color: #5E5C5C;
+    font-family: Neue Haas Grotesk Text Pro;
+    display:inline-block;
+    font-size: 43px;
+    font-weight: normal;
+
+}
+
+#paragraph4 {
+    color: #5E5C5C;
+    font-family: Neue Haas Grotesk Text Pro;
+    display:inline-block;
+    font-size: 43px;
+    font-weight: normal;
+}
+
+#paragraph5 {
+    color: #F16F60;
+    font-family: Raleway;
+    display:inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#paragraph6 {
+    color: #F16F60;
+    font-family: Raleway;
+    display:inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.project-button {
+    color: #5E5C5C;
+    border-radius: 35px;
+    background: #FCECCB;
+    font-family: Raleway;
+    padding: 20px; 
+    width: 200px;
+    height: 20px; 
+    margin: auto;
+    margin-top: 30px;
+  }
+
+
+
