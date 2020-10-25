@@ -29,7 +29,7 @@
 .social-media-menu ul {
     position: absolute;
     /* top is to change the margin of the social media icons */
-    top: 201%; 
+    top: 186%; 
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
