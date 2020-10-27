@@ -58,9 +58,28 @@
     	height: 3px; 
     	margin: auto;
     	margin-top: 25px;
-    }
+	}
+	
+	.leisure-button {
+		color: #5E5C5C;
+		border-radius: 35px;
+		background: #FCECCB;
+		font-family: Raleway;
+		padding: 20px; 
+		width: 100px;
+		height: 3px; 
+		margin: auto;
+		text-align: center;
+	
+	}
 
 	#rcorners1 {
+		margin-top: -6px;
+		font-size: 13px;
+
+	}
+
+	#rcorners2 {
 		margin-top: -6px;
 		font-size: 13px;
 
