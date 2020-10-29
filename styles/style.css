@@ -197,7 +197,7 @@ a { color: #5E5C5C; text-decoration: none;}
 
 }
 
-
+/* 
 
   .grid-container {
     margin: 5%;
@@ -219,9 +219,9 @@ a { color: #5E5C5C; text-decoration: none;}
   .grid_item {
     position: relative;
   /*   overflow: hidden will prevent the image scaling to exceed the specified width. It will expand on back */
-    overflow: hidden; 
+    /* overflow: hidden; 
   }
-  
+*/ 
   /* .grid_item:hover {
     opacity: 0;
      animation: top_overlay 1s linear;
@@ -245,7 +245,7 @@ a { color: #5E5C5C; text-decoration: none;}
     object-fit : cover;
   } */
   
-  .grid_item:hover .grid_image {
+  /* .grid_item:hover .grid_image {
     transform : scale(1.1);
     filter: blur(2px);
   }
@@ -297,7 +297,7 @@ a { color: #5E5C5C; text-decoration: none;}
     }
   }
 
-  
+   */
 
 #mail-icon:hover {
     background-color: #55acee;
