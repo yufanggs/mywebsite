@@ -30,7 +30,7 @@
                 <div class="block"><a href = "#About_link">About</a></div> 
                 <div class="block"><a href = "#Projects_link">Projects</a></div>
                 <!-- <div class="block"><a target="_blank" href = "https://www.dropbox.com/s/z8yse6lcpup25vt/Yu%20Fang%27s%20Resume.pdf?dl=0"> Resume</a></div>  -->
-                <div class="block"><a target="_blank" href = "./merged.pdf"> Resume</a></div>
+                <div class="block"><a target="_blank" href = "./YuFang-Resume.pdf"> Resume</a></div>
                 <div class="block"><a href = "#Footer_link">Contact</a></div>
               </div>      
         </div>
@@ -71,12 +71,12 @@
             </a>
 
             <!-- <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14455079-Portfolio-Website">    -->
-            <a class="photo-block" target="_blank" href="Portfolioproject/index.html">
+            <div class="photo-block portfolio-project" id="portfolio-project-1">
                 <img src="./img/Proj3.jpg">
                 <div class="project-description">
                     <p><p1 style="color:#D07460;font-size:12px;">Personal Portfolio Web Design</p1> <br> View Project</p> 
                 </div>
-            </a>
+            </div>
 
         </div>
 
@@ -101,6 +101,24 @@
 
         </div>
 
+    <!-- The Modal Image (Pop up image) : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img -->
+
+    <div id="modal-1" class="modal">
+        <img class="modal-content" id="img01" src="Portfolioproject/Group66.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfolio-project-1");
+        var modal1 = document.getElementById("modal-1");
+        portfolioProject1.onclick = function(){
+          modal1.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal1.onclick = function() { 
+          modal1.style.display = "none";
+        }
+    </script>
+
 </body>
 </html>
-

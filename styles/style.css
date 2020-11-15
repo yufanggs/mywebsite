@@ -95,6 +95,9 @@
     
 }
 
+.portfolio-project {
+    cursor: pointer;
+}
 
 .listinheader a {
     text-decoration: none;
@@ -214,4 +217,36 @@ a { color: #5E5C5C; text-decoration: none;}
     background-color: #333333;
 }
 
+/* Modal Image ############################### */
+#myImg {
+    cursor: pointer;
+}
 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+  
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+/* 100% Image Width on Smaller Screens, if below 700px, this will activate */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
