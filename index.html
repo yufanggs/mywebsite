@@ -54,21 +54,15 @@
 
 
         <div class="project-container">
-            <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14479561-Social-Media-Application-Design"> 
+            
+            <a class="photo-block instagram-project" id="instagram-project-1"> 
                 <img src="./img/Proj1.jpg">
                 <div class="project-description">
-                    <p> <p1 style="color:#D07460;font-size:12px;">Social Media App Design</p1> <br> View on Dribbble</p> 
+                    <p> <p1 style="color:#D07460;font-size:12px;">Instagram Redesign</p1> <br> View Project</p> 
                 </div>
              
             </a>
  
-
-            <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14443196-E-commerce-Website">
-                <img src="./img/Proj2.jpg">
-                <div class="project-description">
-                    <p> <p1 style="color:#D07460;font-size:12px;">E-commerce Web Design</p1> <br>View on Dribbble</p> 
-                </div>
-            </a>
 
             <!-- <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14455079-Portfolio-Website">    -->
             <div class="photo-block portfolio-project" id="portfolio-project-1">
@@ -77,6 +71,13 @@
                     <p><p1 style="color:#D07460;font-size:12px;">Personal Portfolio Web Design</p1> <br> View Project</p> 
                 </div>
             </div>
+
+            <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14443196-E-commerce-Website">
+                <img src="./img/Proj2.jpg">
+                <div class="project-description">
+                    <p> <p1 style="color:#D07460;font-size:12px;">E-commerce Web Design</p1> <br>View on Dribbble</p> 
+                </div>
+            </a>
 
         </div>
 
@@ -119,6 +120,24 @@
           modal1.style.display = "none";
         }
     </script>
+
+    <div id="modal-2" class="modal">
+        <img class="modal-content" id="img02" src="Portfolioproject/Instaredesign.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("instagram-project-1");
+        var modal2 = document.getElementById("modal-2");
+        portfolioProject1.onclick = function(){
+            modal2.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal2.onclick = function() { 
+        modal2.style.display = "none";
+        }
+    </script>
+
 
 </body>
 </html>
