@@ -54,12 +54,20 @@
 
 
         <div class="project-container">
-            
-            <div class="photo-block instagram-project" id="instagram-project-1"> 
+
+            <!-- Govtech design challenge    -->  
+            <div class="photo-block portfolio-project" id="portfoliogovtech-project-1">
+                <img src="./img/govtechproj.jpg">
+                <div class="project-description">
+                    <p><p1 style="color:#D07460;font-size:12px;">GovTech Design Challenge</p1> <br> View Project</p> 
+                </div>
+            </div>
+
+            <div class="photo-block portfolio-project" id="instagram-project-1">
                 <img src="./img/Proj1.jpg">
                 <div class="project-description">
                     <p><p1 style="color:#D07460;font-size:12px;">Instagram Redesign</p1> <br> View Project</p> 
-                </div>           
+                </div>
             </div>
  
 
@@ -70,14 +78,14 @@
                     <p><p1 style="color:#D07460;font-size:12px;">Personal Portfolio Web Design</p1> <br> View Project</p> 
                 </div>
             </div>
-
+<!--
             <a class="photo-block" target="_blank" href="https://dribbble.com/shots/14443196-E-commerce-Website">
                 <img src="./img/Proj2.jpg">
                 <div class="project-description">
                     <p> <p1 style="color:#D07460;font-size:12px;">E-commerce Web Design</p1> <br>View on Dribbble</p> 
                 </div>
             </a>
-
+ -->
         </div>
 
         <br>
@@ -103,7 +111,59 @@
 
     <!-- The Modal Image (Pop up image) : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img -->
 
+    <div id="modal-0" class="modal">
+        <img class="modal-content" id="img0" src="Portfolioproject/govtechchallenge.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfoliogovtech-project-1");
+        var modal0 = document.getElementById("modal-0");
+        portfolioProject1.onclick = function(){
+          modal0.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal0.onclick = function() { 
+          modal0.style.display = "none";
+        }
+    </script>
+
     <div id="modal-1" class="modal">
+        <img class="modal-content" id="img01" src="Portfolioproject/Group66.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfolio-project-1");
+        var modal1 = document.getElementById("modal-1");
+        portfolioProject1.onclick = function(){
+          modal1.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal1.onclick = function() { 
+          modal1.style.display = "none";
+        }
+    </script>
+
+
+    <div id="modal-1" class="modal">
+        <img class="modal-content" id="img01" src="Portfolioproject/Group66.jpg">
+    </div>
+
+    <script>
+
+        var portfolioProject1 = document.getElementById("portfolio-project-1");
+        var modal1 = document.getElementById("modal-1");
+        portfolioProject1.onclick = function(){
+          modal1.style.display = "block";
+        }
+        // When the user anywhere on the modal, closes the modal
+        modal1.onclick = function() { 
+          modal1.style.display = "none";
+        }
+    </script>
+
+        <div id="modal-1" class="modal">
         <img class="modal-content" id="img01" src="Portfolioproject/Group66.jpg">
     </div>
 
