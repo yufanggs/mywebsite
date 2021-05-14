@@ -11,6 +11,8 @@
 .Header {
     background-color: #fafafa;
     height: 80px;
+    width: 75%;
+    margin: auto;
 }
 
 #mylogo {
@@ -21,18 +23,16 @@
 }
 
 .photo-container{
-    width: 60%;
     margin: auto;
+    height: 60%;
     text-align: center;
     padding-bottom: 20px;
-
+    overflow: hidden;
 }
 
 
 #myphoto {
-    height: 150px;
     padding-top: 5%;
-
 }
 
 
@@ -48,13 +48,11 @@
     padding: 15px 10px 0px 10px;
     width: 420px;
     position: relative;
-
 }
 
 
 .photo-block img{
     width: 100%;
-
 }
 
 .project-description {
@@ -146,8 +144,6 @@ a { color: #F6926F; text-decoration: none;}
     width: 8%;
     display: inline-block;
     font-family: Raleway;
-
-
 }
 
 
@@ -267,5 +263,47 @@ a { color: #F6926F; text-decoration: none;}
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
+    }
+}
+
+
+/* about page */
+
+.AboutProfile {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.AboutPhotoBlock {
+    width: 420px;
+}
+
+.AboutPhotoBlock > img {
+    width: 400px;
+}
+
+.AboutContents {
+    padding: 50px;
+    font-family: Raleway;
+}
+
+.AboutContents h1 {
+    text-align: center;
+    color: #F6926F;
+    padding: 0 20px 40px 20px; /* t l b r*/
+}
+
+/* 100% Image Width on Smaller Screens, if below 700px, this will activate */
+@media only screen and (max-width: 700px){
+    .AboutProfile {
+        width: 100%;
+        margin-top: 50px;
+        display: block;
+    }
+
+    .AboutPhotoBlock > img {
+        padding: 50px;
     }
 }
