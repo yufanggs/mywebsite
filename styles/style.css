@@ -4,12 +4,12 @@
 }
 
 .Container {
-    background-color: white;
+    background-color: #fafafa;
  
 }
 
 .Header {
-    background-color: #f2DDDC;
+    background-color: #fafafa;
     height: 80px;
 }
 
@@ -124,8 +124,8 @@
 }
 
 
-a:hover {color: #EC576B;}
-a { color: #5E5C5C; text-decoration: none;}
+a:hover {color: #5E5C5C;}
+a { color: #F6926F; text-decoration: none;}
 
 
 
