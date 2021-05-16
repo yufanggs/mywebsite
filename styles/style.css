@@ -136,7 +136,7 @@ a { color: #F6926F; text-decoration: none;}
 .listinheader {
     width: 100%;
     margin-top: -40px;
-    margin-left: -70px;
+    margin-left: 30px;
     text-align: right;
 }
 
@@ -270,14 +270,15 @@ a { color: #F6926F; text-decoration: none;}
 /* about page */
 
 .AboutProfile {
-    width: 60%;
+    width: 80%;
     margin: auto;
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .AboutPhotoBlock {
-    width: 420px;
+    width: 400px;
+    margin-top: 30px;
 }
 
 .AboutPhotoBlock > img {
@@ -285,14 +286,14 @@ a { color: #F6926F; text-decoration: none;}
 }
 
 .AboutContents {
-    padding: 50px;
+    padding:  30px;
     font-family: Raleway;
 }
 
 .AboutContents h1 {
     text-align: center;
     color: #F6926F;
-    padding: 0 20px 40px 20px; /* t l b r*/
+    padding: 0px 20px 40px 20px; /* t l b r*/
 }
 
 /* 100% Image Width on Smaller Screens, if below 700px, this will activate */
